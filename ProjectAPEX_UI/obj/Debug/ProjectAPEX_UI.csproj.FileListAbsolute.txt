@@ -7,3 +7,12 @@ c:\users\user\documents\visual studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_U
 c:\users\user\documents\visual studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_UI\obj\Debug\ProjectAPEX_UI.csproj.GenerateResource.Cache
 c:\users\user\documents\visual studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_UI\obj\Debug\ProjectAPEX_UI.exe
 c:\users\user\documents\visual studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_UI\obj\Debug\ProjectAPEX_UI.pdb
+C:\Users\asbury56\Documents\Visual Studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_UI\bin\Debug\ProjectAPEX_UI.exe.config
+C:\Users\asbury56\Documents\Visual Studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_UI\obj\Debug\ProjectAPEX_UI.exe
+C:\Users\asbury56\Documents\Visual Studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_UI\obj\Debug\ProjectAPEX_UI.pdb
+C:\Users\asbury56\Documents\Visual Studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_UI\bin\Debug\ProjectAPEX_UI.exe
+C:\Users\asbury56\Documents\Visual Studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_UI\bin\Debug\ProjectAPEX_UI.pdb
+C:\Users\asbury56\Documents\Visual Studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_UI\obj\Debug\ProjectAPEX_UI.csprojResolveAssemblyReference.cache
+C:\Users\asbury56\Documents\Visual Studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_UI\obj\Debug\ProjectAPEX_UI.Form1.resources
+C:\Users\asbury56\Documents\Visual Studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_UI\obj\Debug\ProjectAPEX_UI.Properties.Resources.resources
+C:\Users\asbury56\Documents\Visual Studio 2015\Projects\ProjectAPEX_UI\ProjectAPEX_UI\obj\Debug\ProjectAPEX_UI.csproj.GenerateResource.Cache

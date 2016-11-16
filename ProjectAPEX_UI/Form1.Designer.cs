@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.btnQuit = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnLogin = new System.Windows.Forms.Button();
-            this.chkRemember = new System.Windows.Forms.CheckBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pnlLogin = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.panel1.SuspendLayout();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.chkRemember = new System.Windows.Forms.CheckBox();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.pnlLogin.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnQuit
@@ -50,29 +50,39 @@
             this.btnQuit.UseVisualStyleBackColor = true;
             this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
-            // panel1
+            // pnlLogin
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.pnlLogin.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.chkRemember);
-            this.panel1.Controls.Add(this.btnLogin);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(819, 562);
-            this.panel1.TabIndex = 1;
+            this.pnlLogin.Controls.Add(this.textBox2);
+            this.pnlLogin.Controls.Add(this.textBox1);
+            this.pnlLogin.Controls.Add(this.chkRemember);
+            this.pnlLogin.Controls.Add(this.btnLogin);
+            this.pnlLogin.Location = new System.Drawing.Point(12, 12);
+            this.pnlLogin.Name = "pnlLogin";
+            this.pnlLogin.Size = new System.Drawing.Size(819, 562);
+            this.pnlLogin.TabIndex = 1;
             // 
-            // btnLogin
+            // textBox2
             // 
-            this.btnLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnLogin.Location = new System.Drawing.Point(286, 269);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(95, 28);
-            this.btnLogin.TabIndex = 0;
-            this.btnLogin.Text = "LOGIN";
-            this.btnLogin.UseVisualStyleBackColor = true;
+            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(286, 225);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
+            this.textBox2.Size = new System.Drawing.Size(239, 38);
+            this.textBox2.TabIndex = 3;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(286, 175);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(239, 38);
+            this.textBox1.TabIndex = 2;
             // 
             // chkRemember
             // 
@@ -85,24 +95,15 @@
             this.chkRemember.Text = "Remember Me";
             this.chkRemember.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // btnLogin
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(286, 175);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(239, 38);
-            this.textBox1.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(286, 225);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(239, 38);
-            this.textBox2.TabIndex = 3;
+            this.btnLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnLogin.Location = new System.Drawing.Point(286, 269);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(95, 28);
+            this.btnLogin.TabIndex = 0;
+            this.btnLogin.Text = "LOGIN";
+            this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -110,13 +111,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnQuit;
             this.ClientSize = new System.Drawing.Size(919, 620);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlLogin);
             this.Controls.Add(this.btnQuit);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pnlLogin.ResumeLayout(false);
+            this.pnlLogin.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -124,7 +125,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnQuit;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlLogin;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.CheckBox chkRemember;
         private System.Windows.Forms.Button btnLogin;

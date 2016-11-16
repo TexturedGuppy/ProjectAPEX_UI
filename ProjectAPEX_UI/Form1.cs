@@ -19,6 +19,7 @@ namespace ProjectAPEX_UI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             this.AutoSize = true;
             this.AutoSizeMode = AutoSizeMode.GrowOnly;
 
